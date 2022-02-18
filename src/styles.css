@@ -9,10 +9,7 @@ body {
 
 nav {
     box-shadow: 0 1px 10px #00000035;
-}
-
-nav .logo {
-    padding: 20px 25px;
+    padding: 20px 30px;
 }
 
 .hero {
@@ -20,17 +17,52 @@ nav .logo {
 }
 
 h1 {
-    margin: 10px 0;
+    margin: 20px 0 10px 0;
     font-size: 36px;
 }
 
 .hero img {
     display: block;
     margin: auto;
+    width: 70vw;
 }
 
 .hero p {
     margin: 0;
     line-height: 110%;
     width: 320px;
+}
+
+.card {
+    margin: 36px;
+    font-size: 12px;
+}
+
+.card-image {
+    width: 176px;
+    height: 235px;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    line-height: 110%;
+}
+
+.star-icon {
+    margin-right: 2px;
+}
+
+.star-rating {
+    margin-right: 2px;
+}
+
+.card .location {
+    color: #918E9B;
+}
+
+.price {
+    font-weight: bold;
 }

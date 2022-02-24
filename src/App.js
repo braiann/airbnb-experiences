@@ -18,15 +18,9 @@ still be block elements, stacked vertically. We'll add styling later.
 */
 
 export default function App() {
-    let cards = data.map(d => <Card
-            key={d.id}
-            img={d.coverImg}
-            rating={d.stats.rating}
-            reviewCount={d.stats.reviewCount}
-            location={d.location}
-            title={d.title}
-            price={136}
-            openSpots={d.openSpots}
+    let cards = data.map(item => <Card
+            key={item.id}
+            {...item}
         />
     );
     console.log(cards);
